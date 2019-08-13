@@ -36,7 +36,21 @@
         color: #fec200 !important;
     }
 
-    
+    .navi-hr-top {
+        margin-top: 5px !important;
+        border-color: #fff !important;
+        border-width: 1px !important;
+        border-style: solid !important;
+
+    }
+
+    .navi-hr-bottom {
+        margin-bottom: 5px !important;
+        border-color: #fff !important;
+        border-width: 1px !important;
+        border-style: solid !important;
+    }
+
 }
 
 
