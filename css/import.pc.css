@@ -24,8 +24,13 @@
         margin-top: 15px !important;
         margin-right: 10px !important;
         width: 140px !important;
-        font-size: 14px !important;
+        font-size: 13px !important;
     } 
+
+    #header .pc-block1 .logo img {
+        height: 100% !important;
+        width: auto !important;
+    }
 
 }
 
