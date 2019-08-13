@@ -1,5 +1,14 @@
 @media screen and (max-width: 767px) {
 
-    
-    
+    #header .pc-block1 {
+        background: #050aa4 !important;
+    }
+
+    #header .pc-block1 .logo img {
+        width: 50% !important;
+    }
+
+
+
+
 }
