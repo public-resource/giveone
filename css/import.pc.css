@@ -1,11 +1,11 @@
 @media print, screen and (min-width:768px) {
 
     #header {
-        background: #050aa4;
+        background: #050aa4 !important;
     }
     
     #hdrNav li a {
-        color: #fff;
+        color: #fff !important;
     }
 }
 
