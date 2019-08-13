@@ -2,3 +2,9 @@ body {
     font-family:  'Noto Sans JP', sans-serif !important;
     color: #001121 !important;
 }
+
+#main-visual {
+    height: 300px !important;
+    background: url(https://public-resource.github.io/giveone/images/main_img.jpg) no-repeat center center !important;
+    margin-top: -20px !important;
+}
