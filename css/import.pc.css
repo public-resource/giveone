@@ -1,3 +1,5 @@
+/* mobile版（width:768px ~> ） 上書きスタイル */
+
 @media print, screen and (min-width:768px) {
 
     #header {

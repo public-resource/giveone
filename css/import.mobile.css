@@ -1,3 +1,5 @@
+/* mobile版（width:~>767px） 上書きスタイル */
+
 @media screen and (max-width: 767px) {
 
     #header .pc-block1 {
