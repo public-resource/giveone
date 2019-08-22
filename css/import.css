@@ -38,3 +38,8 @@ body {
 #footer .block2 {
      
 }
+
+/*  ヘッダーメニュー「寄付をする」検索ポップアップ */
+div#searchPanel {
+    display: none !important;
+}
