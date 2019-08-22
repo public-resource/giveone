@@ -1,22 +1,24 @@
-/* mobile版（width:768px ~> ） 上書きスタイル */
+/* PC版（width:768px ~> ） 上書きスタイル */
 
 @media print, screen and (min-width:768px) {
-
+    /* ヘッダーBar */
     #header {
-        background: #050aa4 !important;
+        /* background: #050aa4 !important; */
+        background: url(https://public-resource.github.io/giveone/images/header_bar_bg.png);
     }
-
+    /* ヘッダーナビ リンク */
     #hdrNav li a {
         color: #fff !important;
     }
-
+    /*  */
     #hdrNav li:nth-child(1), #hdrNav li:nth-child(2) {
         background: none !important;
     }
+    /*  */
     #header .pc-block1 {
         height: 60px !important;
     }
-
+    /*  */
     #header #btnHdrLogin a {
         background: #fec200 !important;
         color: #001121 !important;
@@ -27,32 +29,28 @@
         margin-right: 10px !important;
         width: 140px !important;
         font-size: 13px !important;
-    } 
-
+    }
+    /*  */
     #header .pc-block1 .logo img {
         height: 100% !important;
         width: auto !important;
     }
-
+    /*  */
     #hdrNav li a:hover {
         color: #fec200 !important;
     }
-
+    /*  */
     .navi-hr-top {
         margin-top: 5px !important;
         border-color: #fff !important;
         border-width: 1px !important;
         border-style: solid !important;
-
     }
-
+    /*  */
     .navi-hr-bottom {
         margin-bottom: 5px !important;
         border-color: #fff !important;
         border-width: 0px !important;
         border-style: solid !important;
     }
-
 }
-
-

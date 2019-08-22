@@ -1,16 +1,12 @@
 /* mobile版（width:~>767px） 上書きスタイル */
 
 @media screen and (max-width: 767px) {
-
+    /* ヘッダーBar */
     #header .pc-block1 {
         background: #050aa4 !important;
     }
-
+    /* ヘッダーロゴ */
     #header .pc-block1 .logo img {
         width: 50% !important;
     }
-
-
-
-
 }
