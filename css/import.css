@@ -43,11 +43,11 @@ body {
 /* フッターブロック（下段）*/
 
 #footer .block2 {
-    padding: 20px 0 40px;
+    padding: 20px 0 40px !important;
 }
 
 /* フッターブロック（運営者・システム管理者） */
 footer .block2 .about {
-    width: 70%;
-    margin-top: 20px;
+    width: 70% !important;
+    margin-top: 20px !important;
 }
