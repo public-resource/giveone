@@ -47,7 +47,21 @@ body {
 }
 
 /* フッターブロック（運営者・システム管理者） */
+
 footer .block2 .about {
     width: 70% !important;
     margin-top: 20px !important;
+    border: none !important;
+}
+
+/* トップページ「もうすぐ達成」ブロック非表示 */
+
+div#achievementSoon {
+    display: none;
+}
+
+/* トップページ「締切間近」ブロック非表示 */
+
+div#closingSoon {
+    display: none;
 }
