@@ -17,3 +17,19 @@ body {
 .afterLoginBtn {
     padding: 20px 25px !important;
 }
+
+/* フッターブロック（上段）*/
+#footer .block1 {
+    padding: 15px 0 15px;
+    background-color: #050aa4 !important;
+}
+
+/*　フッターリンクリスト */
+#footer .link-list li {
+    font-weight: 600 !important;
+}
+
+/* フッターブロック（下段）*/
+#footer .block2 {
+     
+}
