@@ -29,6 +29,11 @@ body {
     font-weight: 600 !important;
 }
 
+/*　フッターリンクリスト [Facebook] */
+#footer .block1 .nav-group div.ftrFb {
+    font-weight: 600 !important;
+}
+
 /* フッターブロック（下段）*/
 #footer .block2 {
      
