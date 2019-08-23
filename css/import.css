@@ -40,16 +40,23 @@ body {
     font-weight: 600 !important;
 }
 
+/*　フッターリンクリスト<a> [Facebook] */
+
+#footer .block1 .nav-group div.ftrFb a {
+    background: url(/images/icon_fb_g.png) no-repeat left center;
+}
+
 /*　フッターリンクリスト [Twitter] */
 
 #footer .block1 .nav-group div.ftrTw {
     font-weight: 600 !important;
 }
 
-/*　フッターリンクリスト [Twitter] */
+/*　フッターリンクリスト<a> [Twitter] */
+
 #footer .block1 .nav-group div.ftrTw a {
     color: #fff;
-    background: url(/images/icon_fb.png) no-repeat left center;
+    background: url(/images/icon_tw_g.png) no-repeat left center;
     background-size: 30px;
     display: inline-block;
     padding-left: 40px;
