@@ -40,18 +40,6 @@ body {
     font-weight: 600 !important;
 }
 
-/*　フッターリンクリスト<a> [Facebook] */
-
-#footer .block1 .nav-group div.ftrFb a {
-    color: #fff;
-    background: url(https://public-resource.github.io/giveone/images/icon_fb_g.png) no-repeat left center !important;
-    background-size: 30px;
-    display: inline-block;
-    padding-left: 40px;
-    line-height: 26px;
-    letter-spacing: 1px;
-}
-
 /*　フッターリンクリスト [Twitter] */
 
 #footer .block1 .nav-group div.ftrTw {
