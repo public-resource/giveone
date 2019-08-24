@@ -113,3 +113,55 @@ div#supporter label {
 input.project_category_type {
     margin-right: 5px;
 }
+
+/* 会員ログイン後 メニューアイコン */
+
+#header .loginPanel.afterLogin li:nth-child(1) a, #menu-panel .afterLoginNavi li:nth-child(1) a {
+    background: url(https://public-resource.github.io/giveone/images/menu_icon01.png) no-repeat 15px center;
+    background-color: #174b87;
+}
+
+#header .loginPanel.afterLogin li:nth-child(2) a, #menu-panel .afterLoginNavi li:nth-child(2) a {
+    background: url(https://public-resource.github.io/giveone/images/menu_icon02.png) no-repeat 15px center;
+    background-color: #174b87;
+}
+
+#header .loginPanel.afterLogin li:nth-child(3) a, #menu-panel .afterLoginNavi li:nth-child(3) a {
+    background: url(https://public-resource.github.io/giveone/images/menu_icon03.png) no-repeat 15px center;
+    background-color: #174b87;
+}
+
+#header .loginPanel.afterLogin li:nth-child(4) a, #menu-panel .afterLoginNavi li:nth-child(4) a {
+    background: url(https://public-resource.github.io/giveone/images/menu_icon04.png) no-repeat 15px center;
+    background-color: #174b87;
+}
+
+#header .loginPanel.afterLogin li:nth-child(5) a, #menu-panel .afterLoginNavi li:nth-child(5) a {
+    background: url(https://public-resource.github.io/giveone/images/menu_icon05.png) no-repeat 15px center;
+    background-color: #174b87;
+}
+
+#header .loginPanel.afterLogin li:nth-child(6) a, #menu-panel .afterLoginNavi li:nth-child(6) a {
+    background: url(https://public-resource.github.io/giveone/images/menu_icon076.png) no-repeat 15px center;
+    background-color: #174b87;
+}
+
+#header .loginPanel.afterLogin li:nth-child(7) a, #menu-panel .afterLoginNavi li:nth-child(7) a {
+    background: url(https://public-resource.github.io/giveone/images/menu_icon07.png) no-repeat 15px center;
+    background-color: #174b87;
+}
+
+#header .loginPanel.afterLogin li:nth-child(8) a, #menu-panel .afterLoginNavi li:nth-child(8) a {
+    background: url(https://public-resource.github.io/giveone/images/menu_icon08.png) no-repeat 15px center;
+    background-color: #174b87;
+}
+
+#header .loginPanel.afterLogin li:nth-child(9) a, #menu-panel .afterLoginNavi li:nth-child(9) a {
+    background: url(https://public-resource.github.io/giveone/images/menu_icon09.png) no-repeat 15px center;
+    background-color: #174b87;
+}
+
+#header .loginPanel.afterLogin li:nth-child(10) a, #menu-panel .afterLoginNavi li:nth-child(10) a {
+    background: url(https://public-resource.github.io/giveone/images/menu_icon10.png) no-repeat 15px center;
+    background-color: #174b87;
+}
