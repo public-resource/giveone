@@ -72,10 +72,19 @@ body {
 
 /* フッターブロック（運営者・システム管理者） */
 
-footer .block2 .about {
-    width: 70% !important;
-    margin-top: 20px !important;
-    border: none !important;
+.about-admin {
+    text-align: center;
+    font-size: small;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.about-admin a {
+    font-weight: 600;
+}
+
+div#about-2 {
+    margin-top: 10px;
 }
 
 /* トップページ「もうすぐ達成」ブロック非表示 */
