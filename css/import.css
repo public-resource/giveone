@@ -20,6 +20,13 @@ body {
     background: url(https://public-resource.github.io/giveone/images/main_img.jpg) no-repeat center center !important;
 }
 
+/* トップページ イメージ下メッセージ: <a>リンク有効化 */
+
+div#kifu-koujyo {
+    z-index: 100;
+    position: relative;
+}
+
 /* ログイン後メニューボタン */
 
 .afterLoginBtn {
@@ -114,7 +121,11 @@ input.project_category_type {
     margin-right: 5px;
 }
 
-/* 会員ログイン後 メニューアイコン */
+/* *************
+会員ログイン後 
+***************** */
+
+/*.about-admin */
 
 #header .loginPanel.afterLogin li:nth-child(1) a, #menu-panel .afterLoginNavi li:nth-child(1) a {
     background: url(https://public-resource.github.io/giveone/images/menu_icon01.png) no-repeat 15px center;
