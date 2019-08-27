@@ -10,7 +10,6 @@ body {
 /* トップページイメージ画像 */
 
 #main-visual {
-    height: 350px !important;
     background: url(https://public-resource.github.io/giveone/images/main_img.jpg) no-repeat center center !important;
 }
 

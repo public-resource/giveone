@@ -5,11 +5,20 @@
     #header {
         background: url(https://public-resource.github.io/giveone/images/header_bar_bg.png) !important;
     }
+    /* Mainエリア */
+    #main {
+        padding-top: 60px !important;
+    }
+    /* メイン イメージサイズ */
+    #main-visual {
+        height: 350px !important;
+    }
+    
     /* ヘッダーナビ リンク */
     #hdrNav li a {
         color: #fff !important;
         font-size: 16px !important;
-        font-weight: 400 !important;
+        font-weight: 500 !important;
     }
     /* ヘッダー メインメニュー */
     ul#hdrNav {

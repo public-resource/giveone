@@ -5,7 +5,10 @@
     #main {
         padding-top: 10px !important;
     }
-
+    /* メイン イメージサイズ */
+    #main-visual {
+        height: 0px !important;
+    }
     /* ヘッダーBar */
     #header .pc-block1 {
         background: #050aa4 !important;
