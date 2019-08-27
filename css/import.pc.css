@@ -9,10 +9,11 @@
     #main {
         padding-top: 0px !important;
     }
-    /* メイン イメージサイズ */
+    /* メイン イメージ */
     #main-visual {
         height: 350px !important;
         margin-top: 60px !important;
+        background: url(https://public-resource.github.io/giveone/images/main_img.jpg) no-repeat center center !important;
     }
 
     /* ヘッダーナビ リンク */
