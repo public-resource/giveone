@@ -3,7 +3,7 @@
 @media screen and (max-width: 767px) {
     /* Mainエリア */
     #main {
-        padding-top: 10px !important;
+        padding-top: 0px !important;
     }
     /* メイン イメージサイズ */
     #main-visual {
