@@ -3,8 +3,7 @@
 @media print, screen and (min-width:768px) {
     /* ヘッダーBar */
     #header {
-        /* background: #050aa4 !important; */
-        background: url(https://public-resource.github.io/giveone/images/header_bar_bg.png);
+        background: url(https://public-resource.github.io/giveone/images/header_bar_bg.png) !important;
     }
     /* ヘッダーナビ リンク */
     #hdrNav li a {
