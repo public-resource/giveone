@@ -10,6 +10,10 @@
     #hdrNav li a {
         color: #fff !important;
     }
+    /* ヘッダー メインメニュー */
+    ul#hdrNav {
+        margin-bottom: 0px !important;
+    }
     /*  */
     #hdrNav li:nth-child(1), #hdrNav li:nth-child(2) {
         background: none !important;
