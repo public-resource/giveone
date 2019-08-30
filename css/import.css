@@ -175,7 +175,14 @@ input.project_category_type {
 }
 
 /* 検索リスト SDGs icons */
+
 img.prf_sdgs-icon {
     width: 20px;
     margin-right: 10px;
+}
+
+img.prf_sdgs-iconL {
+    width: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
