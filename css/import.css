@@ -186,3 +186,9 @@ img.prf_sdgs-iconL {
     margin-right: 10px;
     margin-bottom: 10px;
 }
+
+/* 寄付ブロジェクト一覧: 検索ボタン */
+div#prf_search-link-btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
