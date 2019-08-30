@@ -173,3 +173,9 @@ input.project_category_type {
     background-color: #174b87;
     background-size: 20px;
 }
+
+/* 検索リスト SDGs icons */
+img.prf_sdgs_icon {
+    width: 20px;
+    margin-right: 10px;
+}
