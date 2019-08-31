@@ -18,7 +18,6 @@
     #header .pc-block1 .logo img {
         width: 50% !important;
     }
-
     /* メニューボックスのZレイヤー 最上部に配置 */
     .pc-block2 {
         z-index: 200 !important;
