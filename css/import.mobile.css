@@ -16,10 +16,14 @@
     }
     /* ヘッダーロゴ */
     #header .pc-block1 .logo img {
-        width: 50% !important;
+        width: 100% !important;
+    }
+    #header .pc-block1 .logo {
+        width: auto !important;
     }
     /* メニューボックスのZレイヤー 最上部に配置 */
     .pc-block2 {
         z-index: 200 !important;
     }
+
 }
