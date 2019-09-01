@@ -12,7 +12,7 @@
     }
     /* ヘッダーBar */
     #header .pc-block1 {
-        background: #050aa4 !important;
+        background: url(https://public-resource.github.io/giveone/images/header_bar_bg.png) !important;
     }
     /* ヘッダーロゴ */
     #header .pc-block1 .logo img {
