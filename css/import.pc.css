@@ -24,7 +24,7 @@
     }
     /* ヘッダー メインメニュー */
     ul#hdrNav {
-        margin-bottom: 0px !important;
+        margin-bottom: -10px !important;
     }
     /*  */
     #hdrNav li:nth-child(1), #hdrNav li:nth-child(2) {
