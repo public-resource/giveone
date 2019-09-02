@@ -194,6 +194,16 @@ li.prf_marathon {
     display: none;
 }
 
+
+/* トップページ 新着寄付プロジェクト一覧　インデックス表示 タイトルと団体名 */
+.achievementList li .achievementTxt h4, .slideAchievementList li .achievementTxt h4 {
+    font-size: 15px !important;
+    line-height: 1.2 !important;
+}
+.achievementList li .achievementTxt .owner, .slideAchievementList li .achievementTxt .owner {
+    font-size: 14px !important;
+    line-height: 1 !important;
+}
 /* トップページ 活動レポート一覧 インデックス表示 タイトルと団体名 */
 
 .reportList li .reportTxt h4 {
