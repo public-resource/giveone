@@ -25,5 +25,20 @@
     .pc-block2 {
         z-index: 200 !important;
     }
-
+    /* 活動レポート一覧 サムネイル画像非表示*/
+    .reportList li .thumb {
+        display: none !important;
+    }
+    /* 活動レポート一覧 リスト幅調整*/
+    .reportList li {
+        margin: 0 0 0px !important;
+    }
+    /* 活動レポート一覧 レポート名 表示調整*/
+    .reportList li .reportTxt h4 {
+        font-size: 18px !important;
+    }
+    /* 活動レポート一覧 団体名 表示調整*/
+    .reportList li .owner {
+        font-size: 20px !important;
+    }
 }
