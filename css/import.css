@@ -299,3 +299,19 @@ body.special#main-visual img {
 .main_sp_padding_1 .col-xs-12.right.btn-area {
     text-align: center;
 }
+
+/* 団体寄付ページ 団体イメージエリアの高さ調整 */
+#npo .header {
+    background-color: #ffffff !important;
+    margin-top: -30px !important;
+    margin-bottom: 0px !important;
+}
+
+/* 活動レポート詳細 右下 [団体名称]左横の鉛筆アイコン非表示 */
+.report-show .fa.pencil {
+    display: none !important;
+}
+/* 活動レポート詳細 右下 [団体名称]左横のプロジェクト団体名非表示 */
+.report-show p.project {
+    display: none !important;
+}

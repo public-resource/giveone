@@ -73,4 +73,9 @@
     .about-admin {
         margin-top: 50px !important;
     }
+
+    /* 団体寄付ページ 団体イメージエリアの高さ調整 */
+    #npo .owner-img .img-responsive2 {
+        padding: 50px !important;
+    }
 }
