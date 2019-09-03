@@ -82,8 +82,7 @@
         margin-top: -100px !important;
         margin-bottom: -100px !important;
     }
-
-    /* 応援企画新規申請 ラベル行間調整 */ 
+    /* 応援企画新規申請 ラベル行間調整 */
     .beforeApplication ul li label {
         font-size: 3.2vw;
         line-height: 24px !important;
@@ -91,5 +90,13 @@
     /* チェックボック位置調整 */
     #formWrap input[type="checkbox"] {
         margin-bottom: -3px;
+    }
+    /* 応援企画新規申請 [受付終了日]のフォントサイズ調整 */
+    parallelForm .txt {
+        font-size: 12pt;
+    }
+    /* 応援企画新規申請 [無期限にする]のフォントサイズ調整 */
+    #formWrap label.checkLabel {
+        font-size: 16px;
     }
 }
