@@ -261,8 +261,7 @@ div#kifu-koujyo:before {
     margin-right: 10px;
 }
 
-/*　キャンペーン詳細ページ */
-/* <body id="top" class="special"> */
+/*　キャンペーン詳細ページ <body id="top" class="special"> */
 
 body.special .hdrLogoArea div.hdrLogo img {
     width: 60px !important;
@@ -288,4 +287,15 @@ body.special .hdrLogoArea {
 
 body.special .hdrLogoArea .fb-like {
     display: none;
+}
+
+body.special#main-visual img {
+    width: auto;
+    height: 350px;
+}
+
+/* コメント一覧 [寄付プロジェクト詳細へ]のリンク位置調整（中央）*/
+
+.main_sp_padding_1 .col-xs-12.right.btn-area {
+    text-align: center;
 }
