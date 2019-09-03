@@ -230,11 +230,13 @@ div#kifu-koujyo {
     margin-left: 10px;
     margin-top: 5px;
 }
+
 div#kifu-koujyo:before {
     content: "※";
 }
 
 /* フッダー 運営団体（パブリックソース財団）ロゴ画像挿入 */
+
 #about-1 a:before {
     content: '';
     display: inline-block;
@@ -245,7 +247,9 @@ div#kifu-koujyo:before {
     vertical-align: middle;
     margin-right: 10px;
 }
+
 /* フッダー システム管理者（グローシップパートナーズ）ロゴ画像挿入 */
+
 #about-2 a:before {
     content: '';
     display: inline-block;
@@ -255,4 +259,33 @@ div#kifu-koujyo:before {
     background-size: contain;
     vertical-align: middle;
     margin-right: 10px;
+}
+
+/*　キャンペーン詳細ページ */
+/* <body id="top" class="special"> */
+
+body.special .hdrLogoArea div.hdrLogo img {
+    width: 60px !important;
+    margin-top: -150px !important;
+}
+
+body.special .hdrLogoArea div.hdrLogo {
+    margin-top: -75px !important;
+}
+
+/* ヘッダー タイトルの位置調整 */
+
+body.special .hdrLogoArea p {
+    font-size: 15px !important;
+    margin-bottom: -20px !important;
+    margin-left: 70px !important;
+    color: #ffffff !important;
+}
+
+body.special .hdrLogoArea {
+    margin-top: -30px !important;
+}
+
+body.special .hdrLogoArea .fb-like {
+    display: none;
 }
