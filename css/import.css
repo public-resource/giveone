@@ -355,6 +355,9 @@ body.special#main-visual img {
 .prf_to_member_login {
     margin-top: 50px !important;
 }
+.prf_to_member_login h2.title-green-border {
+    font-size: 18px !important;
+}
 
 /* H1/H2 下線タイトルスタイルの変更*/
 h1.title-green-border {
