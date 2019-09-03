@@ -301,6 +301,7 @@ body.special#main-visual img {
 }
 
 /* 団体寄付ページ 団体イメージエリアの高さ調整 */
+
 #npo .header {
     background-color: #ffffff !important;
     margin-top: -30px !important;
@@ -308,10 +309,25 @@ body.special#main-visual img {
 }
 
 /* 活動レポート詳細 右下 [団体名称]左横の鉛筆アイコン非表示 */
+
 .report-show .fa.pencil {
     display: none !important;
 }
+
 /* 活動レポート詳細 右下 [団体名称]左横のプロジェクト団体名非表示 */
+
 .report-show p.project {
     display: none !important;
+}
+
+/* 活動レポート一覧の内容（サマリー）表記を非表示 */
+
+.report-list-body p:nth-of-type(3) {
+    display: none !important;
+}
+
+/* 活動レポート一覧の内容（サマリー）下 日付表記一の調整 */
+
+.report-list-body p.date {
+    margin-top: 0px !important;
 }
