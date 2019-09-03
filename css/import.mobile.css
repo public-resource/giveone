@@ -84,14 +84,14 @@
     }
     /* 応援企画新規申請 ラベル行間調整 */
     .beforeApplication ul li label {
-        line-height: 24px !important;
+        line-height: 30px !important;
     }
     /* チェックボック位置調整 */
     #formWrap input[type="checkbox"] {
         margin-bottom: -3px !important;
     }
     /* 応援企画新規申請 [受付終了日]のフォントサイズ調整 */
-    parallelForm .txt {
+    .parallelForm .txt {
         font-size: 12pt !important;
     }
     /* 応援企画新規申請 [無期限にする]のフォントサイズ調整 */

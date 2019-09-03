@@ -375,8 +375,18 @@ h2.title-green-border {
     margin-bottom: -3px !important;
 }
 
+/* 応援企画新規申請 申請の前に（注意事項）行間調整 */
+.beforeApplication p {
+    margin-bottom: 0px !important;
+}
+
 /* 応援企画作成 タイトル位置調整 */
 h2.h-style1 {
     margin-top: 80px !important;
     margin-bottom: 10px　!important;
+}
+
+/* 活動レポート詳細 団体名前の鉛筆マーク除去 */
+.fa-pencil:before {
+    content: "" !important;
 }
