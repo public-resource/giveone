@@ -344,7 +344,22 @@ body.special#main-visual img {
     margin-top: 50px !important;
 }
 
-/* H1 下線タイトルスタイルの変更*/
+/* 会員新規登録 下部[会員ログイン] ボタン位置調整*/
+
+.prf_owner_to_member_login .btn-style1 {
+    width: 150px !important;
+    height: 30px !important;
+    font-size: 13px !important;
+}
+
+.prf_owner_to_member_login {
+    margin-top: 50px !important;
+}
+
+/* H1/H2 下線タイトルスタイルの変更*/
 h1.title-green-border {
+    font-size: 20px !important;
+}
+h2.title-green-border {
     font-size: 20px !important;
 }
