@@ -346,13 +346,13 @@ body.special#main-visual img {
 
 /* 会員新規登録 下部[会員ログイン] ボタン位置調整*/
 
-.prf_owner_to_member_login .btn-style1 {
+.prf_to_member_login .btn-style1 {
     width: 150px !important;
     height: 30px !important;
     font-size: 13px !important;
 }
 
-.prf_owner_to_member_login {
+.prf_to_member_login {
     margin-top: 50px !important;
 }
 
