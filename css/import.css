@@ -366,3 +366,10 @@ h1.title-green-border {
 h2.title-green-border {
     font-size: 20px !important;
 }
+
+/* チェックボックス　標準スタイル(目立つように) */
+#formWrap input[type="checkbox"], #formWrap input[type="radio"] {
+    width: 18px !important;
+    height: 18px !important;
+    border: #174b87 solid 2px !important;
+}
