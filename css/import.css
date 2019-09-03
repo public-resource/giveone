@@ -233,3 +233,26 @@ div#kifu-koujyo {
 div#kifu-koujyo:before {
     content: "※";
 }
+
+/* フッダー 運営団体（パブリックソース財団）ロゴ画像挿入 */
+#about-1 a:before {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background-image: url(https://public-resource.github.io/giveone/images/logo_prf.png);
+    background-size: contain;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+/* フッダー システム管理者（グローシップパートナーズ）ロゴ画像挿入 */
+#about-2 a:before {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background-image: url(https://public-resource.github.io/giveone/images/logo_gsp.png);
+    background-size: contain;
+    vertical-align: middle;
+    margin-right: 10px;
+}
