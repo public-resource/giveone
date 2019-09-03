@@ -73,9 +73,23 @@
     .about-admin {
         margin-top: 50px !important;
     }
-
     /* 団体寄付ページ 団体イメージエリアの高さ調整 */
     #npo .owner-img .img-responsive2 {
         padding: 50px !important;
+    }
+    #npo .header .npo-data .main-img {
+        padding: 0;
+        margin-top: -100px !important;
+        margin-bottom: -100px !important;
+    }
+
+    /* 応援企画新規申請 ラベル行間調整 */ 
+    .beforeApplication ul li label {
+        font-size: 3.2vw;
+        line-height: 24px !important;
+    }
+    /* チェックボック位置調整 */
+    #formWrap input[type="checkbox"] {
+        margin-bottom: -3px;
     }
 }

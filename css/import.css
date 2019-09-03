@@ -372,4 +372,11 @@ h2.title-green-border {
     width: 18px !important;
     height: 18px !important;
     border: #174b87 solid 2px !important;
+    margin-bottom: -3px;
+}
+
+/* 応援企画作成 タイトル位置調整 */
+h2.h-style1 {
+    margin-top: 80px !important;
+    margin-bottom: 10px　!important;
 }
