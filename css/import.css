@@ -263,35 +263,54 @@ div#kifu-koujyo:before {
 
 /*　キャンペーン詳細ページ <body id="top" class="special"> */
 
-body.special .hdrLogoArea div.hdrLogo img {
-    width: 60px !important;
-    margin-top: -150px !important;
+body.special .hdrLogoArea {
+    margin-top: -90px !important;
 }
 
-body.special .hdrLogoArea div.hdrLogo {
-    margin-top: -75px !important;
-}
-
-/* ヘッダー タイトルの位置調整 */
+/* キャンペーン詳細ページ ヘッダー タイトルの位置調整 */
 
 body.special .hdrLogoArea p {
-    font-size: 15px !important;
-    margin-bottom: -20px !important;
+    font-size: 16px !important;
+    margin-top: 120px !important;
     margin-left: 70px !important;
-    color: #ffffff !important;
 }
 
-body.special .hdrLogoArea {
-    margin-top: -30px !important;
+/* キャンペーン詳細ページ ヘッダー　*/
+
+body.special .hdrLogoArea div.hdrLogo {
+    margin-top: -170px !important;
 }
+
+/* キャンペーン詳細ページ ヘッダー */
+
+body.special .hdrLogoArea div.hdrLogo img {
+    width: 60px !important;
+    margin-top: 112px !important;
+}
+
+/* キャンペーン詳細ページ ヘッダー FB like非表示 */
 
 body.special .hdrLogoArea .fb-like {
-    display: none;
+    display: none !important;
 }
 
-body.special#main-visual img {
-    width: auto;
-    height: 350px;
+/* キャンペーン詳細ページ メイン画像 */
+
+body.special #main-visual img {
+    width: auto !important;
+    height: 350px !important;
+}
+
+/* キャンペーン詳細ページ GiveOneディフォルトメイン画像（背景非表示） */
+
+body.special #main-visual {
+    background: none !important;
+}
+
+/* キャンペーン詳細ページ Fb SNSブロック */
+
+#headShare {
+    padding: 10px 0 20px !important;
 }
 
 /* コメント一覧 [寄付プロジェクト詳細へ]のリンク位置調整（中央）*/
@@ -355,19 +374,23 @@ body.special#main-visual img {
 .prf_to_member_login {
     margin-top: 50px !important;
 }
+
 .prf_to_member_login h2.title-green-border {
     font-size: 18px !important;
 }
 
 /* H1/H2 下線タイトルスタイルの変更*/
+
 h1.title-green-border {
     font-size: 20px !important;
 }
+
 h2.title-green-border {
     font-size: 20px !important;
 }
 
 /* チェックボックス　標準スタイル(目立つように) */
+
 #formWrap input[type="checkbox"], #formWrap input[type="radio"] {
     width: 18px !important;
     height: 18px !important;
@@ -376,17 +399,20 @@ h2.title-green-border {
 }
 
 /* 応援企画新規申請 申請の前に（注意事項）行間調整 */
+
 .beforeApplication p {
     margin-bottom: 0px !important;
 }
 
 /* 応援企画作成 タイトル位置調整 */
+
 h2.h-style1 {
     margin-top: 80px !important;
-    margin-bottom: 10px　!important;
+    margin-bottom: 10px !important;
 }
 
 /* 活動レポート詳細 団体名前の鉛筆マーク除去 */
+
 .fa-pencil:before {
     content: "" !important;
 }
