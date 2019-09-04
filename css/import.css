@@ -271,6 +271,7 @@ body.special .hdrLogoArea {
 
 body.special .hdrLogoArea p {
     font-size: 16px !important;
+    color: #ffffff !important;
     margin-top: 120px !important;
     margin-left: 70px !important;
 }
@@ -305,12 +306,14 @@ body.special #main-visual img {
 
 body.special #main-visual {
     background: none !important;
+    text-align: center !important;
 }
 
 /* キャンペーン詳細ページ Fb SNSブロック */
 
-#headShare {
+body.special #headShare {
     padding: 10px 0 20px !important;
+    text-align: center !important;
 }
 
 /* コメント一覧 [寄付プロジェクト詳細へ]のリンク位置調整（中央）*/
