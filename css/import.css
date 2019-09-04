@@ -298,8 +298,9 @@ body.special .hdrLogoArea .fb-like {
 /* キャンペーン詳細ページ メイン画像 */
 
 body.special #main-visual img {
-    width: auto !important;
-    height: 350px !important;
+    width: 100% !important;
+    height: auto !important;
+    max-width: 450px !important;
 }
 
 /* キャンペーン詳細ページ GiveOneディフォルトメイン画像（背景非表示） */
