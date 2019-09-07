@@ -506,3 +506,15 @@ span.prf_search-title:before {
 .detailTitle h3 {
     margin-left: 2vw;
 }
+
+/* 寄付プロジェクト詳細 件数ボックス */
+#projectHeader .detailInner ul li a span {
+    background-color: #002060 !important;
+}
+
+/* 寄付プロジェクト詳細 [寄付する]ボタン */
+.fixBtn .btn-style2 {
+    background: #fec011 !important;
+    color: #002060 !important;
+    border: solid 2px #002060 !important;
+}
