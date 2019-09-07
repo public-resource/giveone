@@ -242,7 +242,7 @@ div#kifu-koujyo:before {
     display: inline-block;
     width: 50px;
     height: 30px;
-    background-image: url(https://public-resource.github.io/giveone/images/logo_prf.png);
+    background: url(https://public-resource.github.io/giveone/images/logo_prf.png) no-repeat center center;
     background-size: contain;
     vertical-align: middle;
     margin-right: 10px;
@@ -255,7 +255,7 @@ div#kifu-koujyo:before {
     display: inline-block;
     width: 50px;
     height: 30px;
-    background-image: url(https://public-resource.github.io/giveone/images/logo_gsp.png);
+    background: url(https://public-resource.github.io/giveone/images/logo_gsp.png) no-repeat center center;
     background-size: contain;
     vertical-align: middle;
     margin-right: 10px;
@@ -419,4 +419,21 @@ h2.h-style1 {
 
 .fa-pencil:before {
     content: "" !important;
+}
+
+/* 標準ボタン */
+
+.btn-style1 {
+    color: #002060 !important;
+    border: solid 2px #002060 !important;
+}
+
+/* ページトップ アイコン */
+
+#pagetop a {
+    opacity: 0.8 !important;
+}
+
+#pagetop a:hover {
+    opacity: 1 !important;
 }

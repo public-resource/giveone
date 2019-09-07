@@ -98,4 +98,9 @@
     #formWrap label.checkLabel {
         font-size: 16px !important;
     }
+
+    /* 標準ボタン */
+    .btn-style1 {
+        height: calc(60 / 750 * 100vw) !important;
+    }
 }
