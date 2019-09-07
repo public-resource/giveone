@@ -103,4 +103,10 @@
     .btn-style1 {
         height: calc(60 / 750 * 100vw) !important;
     }
+
+    /* 寄付プロジェクト詳細 [寄付する]ボタン */
+    .detailStatusMain .statusTxt .fixBtn .btn-style2, .detailStatusMain .statusTxt .fixBtn .btn-style1 {
+        height: calc(60 / 750 * 100vw) !important;
+        font-size: 3vw !important;
+    }
 }

@@ -8,6 +8,7 @@ body {
 }
 
 /* H1,H2 H3: 標準フォント */
+
 h1, h2, h3 {
     color: #002060;
 }
@@ -498,4 +499,10 @@ span.prf_search-title:before {
 
 #header .pc-block1 {
     border-bottom: 0px !important;
+}
+
+/* 寄付プロジェクト詳細 プロジェクトタイトル */
+
+.detailTitle h3 {
+    margin-left: 2vw;
 }
