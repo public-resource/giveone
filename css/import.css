@@ -518,3 +518,14 @@ span.prf_search-title:before {
     color: #002060 !important;
     border: solid 2px #002060 !important;
 }
+
+/* 寄付プロジェクト詳細 [寄付する]ボタン 先頭アイコンを非表示 */
+.detailStatusMain .statusTxt .fixBtn .btn-style2::before {
+    content: none !important;
+}
+
+/* 寄付プロジェクト詳細 [即時課金形式：All in] 表示スタイル */
+.allIn .allIn02 {
+    border: #fe8c0f solid 1px !important;
+    color: #fe8c0f !important;
+}
