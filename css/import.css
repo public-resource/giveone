@@ -10,7 +10,7 @@ body {
 /* トップページ イメージ下メッセージ: <a>リンク有効化 */
 
 div#kifu-koujyo {
-    z-index: 100;
+    z-index: 50;
     position: relative;
 }
 
@@ -111,6 +111,12 @@ input.project_category_type {
 /* *************
 会員ログイン後 
 ***************** */
+
+/* 会員メニューパネル */
+
+.loginPanel.afterLogin li a {
+    background-color: #002060 !important;
+}
 
 /*.about-admin */
 
@@ -436,4 +442,54 @@ h2.h-style1 {
 
 #pagetop a:hover {
     opacity: 1 !important;
+}
+
+/* 検索ページ 最上部上部 検索ブロック */
+
+.prf_search-head {
+    text-align: center;
+}
+
+/* 検索ページ [すべてのプロジェクトを見る]ボタン */
+
+.prf_all-project a.btn-style1.hover1 {
+    height: 40px;
+}
+
+/* 検索ページ 検索タイトル */
+
+span.prf_search-title {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2em;
+}
+
+/* 検索ページ 検索タイトル左に検索アイコン表示　*/
+
+span.prf_search-title:before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    background-image: url(/images/icon_search.png);
+    background-size: contain;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+}
+
+/* 検索ページ [検索する]ボタン 位置調整 */
+
+.form-button.form-button-search.right {
+    margin-top: 10px !important;
+}
+
+/* 検索ページ ヘッダーロゴ表示調整 */
+
+#header .pc-block1 .logo {
+    height: 60px !important;
+}
+
+#header .pc-block1 {
+    border-bottom: 0px !important;
 }
