@@ -438,7 +438,7 @@ h2.h-style1 {
 
 #pagetop a {
     opacity: 0.8 !important;
-    background: #002060 !important;
+    background: #002060 url(/images/arrow_pagetop.png) no-repeat center center !important;
 }
 
 #pagetop a:hover {
