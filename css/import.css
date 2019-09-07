@@ -10,7 +10,7 @@ body {
 /* トップページ イメージ下メッセージ: <a>リンク有効化 */
 
 div#kifu-koujyo {
-    z-index: 50;
+    z-index: 10;
     position: relative;
 }
 
@@ -438,6 +438,7 @@ h2.h-style1 {
 
 #pagetop a {
     opacity: 0.8 !important;
+    background: #002060 !important;
 }
 
 #pagetop a:hover {
