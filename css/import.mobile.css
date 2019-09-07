@@ -109,4 +109,9 @@
         height: calc(60 / 750 * 100vw) !important;
         font-size: 3vw !important;
     }
+
+    /* フッター表記 スクロール調整 */
+    #footer .block2 {
+        margin-bottom: 150px;
+    }
 }
