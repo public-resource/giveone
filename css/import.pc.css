@@ -69,4 +69,10 @@
         border-width: 0px !important;
         border-style: solid !important;
     }
+
+    /* 団体ログインページのGiveOneロゴ 配置 */
+    div#prf_admin-logo {
+        margin-left: 28%;
+        margin-bottom: 10px;
+    }
 }
