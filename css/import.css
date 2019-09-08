@@ -255,16 +255,13 @@ div#kifu-koujyo:before {
 }
 
 /* フッダー システム管理者（グローシップパートナーズ）ロゴ画像挿入 */
-
-#about-2 a:before {
-    content: '';
-    display: inline-block;
-    width: 50px;
-    height: 30px;
-    background: url(https://public-resource.github.io/giveone/images/logo_gsp.png) no-repeat center center;
-    background-size: contain;
-    vertical-align: middle;
-    margin-right: 10px;
+/*
+<div id="prf_GSP-logo">
+<a href="https://www.growship.com/" target="_blank"><img src="https://public-resource.github.io/giveone/images/logo_gsp2.png"></a>
+</div>
+*/
+#prf_GSP-logo {
+    width: 80px;
 }
 
 /*　キャンペーン詳細ページ <body id="top" class="special"> */
