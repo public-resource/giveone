@@ -453,7 +453,7 @@ h2.h-style1 {
 
 /* 検索ページ [すべてのプロジェクトを見る]ボタン */
 
-.prf_all-project a.btn-style1.hover1 {
+.prf_all-project .btn-style1.hover1 {
     height: 40px !important;
 }
 

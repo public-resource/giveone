@@ -98,20 +98,31 @@
     #formWrap label.checkLabel {
         font-size: 16px !important;
     }
-
     /* 標準ボタン */
     .btn-style1 {
         height: calc(60 / 750 * 100vw) !important;
     }
-
     /* 寄付プロジェクト詳細 [寄付する]ボタン */
     .detailStatusMain .statusTxt .fixBtn .btn-style2, .detailStatusMain .statusTxt .fixBtn .btn-style1 {
         height: calc(60 / 750 * 100vw) !important;
         font-size: 3vw !important;
     }
-
     /* フッター表記 スクロール調整 */
     #footer .block2 {
         margin-bottom: 150px;
+    }
+    /* ログイン後 メニューパネルのロゴ（非表示） */
+    .pc-block2 .logo img {
+        display: none !important;
+    }
+    /* 団体ログインページのGiveOneロゴ 配置 */
+    div#prf_admin-logo {
+        margin-left: 2%;
+        margin-bottom: 10px;
+    }
+
+    /* 検索ページ キーワード検索[検索する]ボタンの配置 */
+    #prf_search-form input.btn.btn-primary {
+        margin-top: 10px;
     }
 }
