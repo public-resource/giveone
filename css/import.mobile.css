@@ -129,9 +129,10 @@
         margin-top: 10px;
     }
     /* キュレーションページ: ヘッダー背景（白）　*/
-    .prf_special header#header {
+    .prf_special header#header .pc-block1 {
         background: #ffffffff !important;
     }
+
     /* キュレーションページ: ヘッダー タイトル　*/
     .prf_special header#header .sp-none {
         margin-left: 15px;
