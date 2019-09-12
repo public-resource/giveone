@@ -536,3 +536,22 @@ span.prf_search-title:before {
     border: #fe8c0f solid 1px !important;
     color: #fe8c0f !important;
 }
+
+/* キュレーションページ: ヘッダー背景（白）　*/
+.prf_special header#header {
+    background: #ffffffff !important;
+}
+/* キュレーションページ: ヘッダー タイトル　*/
+.prf_special header#header .sp-none {
+    margin-left: 15px;
+    color: #002060;
+    font-weight: bold;
+}
+/* キュレーションページ: ログインボタン非表示　*/
+.prf_special header#header div#btnHdrLogin {
+    display: none;
+}
+/* キュレーションページ: キュレーターメイン画像　*/
+.prf_special div#main-visual {
+    background: #ffffffff !important;
+}

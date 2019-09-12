@@ -128,4 +128,26 @@
     #prf_search-form input.btn.btn-primary {
         margin-top: 10px;
     }
+    /* キュレーションページ: ヘッダー背景（白）　*/
+    .prf_special header#header {
+        background: #ffffffff !important;
+    }
+    /* キュレーションページ: ヘッダー タイトル　*/
+    .prf_special header#header .sp-none {
+        margin-left: 15px;
+        color: #002060;
+        font-weight: bold;
+    }
+    /* キュレーションページ: ログインボタン非表示　*/
+    .prf_special header#header div#btnHdrLogin {
+        display: none;
+    }
+    /* キュレーションページ: キュレーターメイン画像　*/
+    .prf_special div#main-visual {
+        background: #ffffffff !important;
+    }
+    /* キュレーションページ: キュレーターメイン画像高さ調整　*/
+    .prf_special main#main p {
+        margin-top: 300px;
+    }
 }
