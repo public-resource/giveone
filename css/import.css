@@ -21,8 +21,21 @@ div#kifu-koujyo {
     text-align: center;
 }
 
-/* トップページタイトルアイコン非表示 */
+/* トップページタイトル:新着プロジェクト アイコン非表示 */
+
 #recommend h2::before {
+    display: none !important;
+}
+
+/* トップページタイトル:新着レポート アイコン非表示 */
+
+#report h2::before {
+    display: none !important;
+}
+
+/* トップページタイトル:週間寄付ランキング アイコン非表示 */
+
+#ranking h2::before {
     display: none !important;
 }
 
@@ -544,20 +557,27 @@ span.prf_search-title:before {
 }
 
 /* キュレーションページ: ヘッダー背景（白）　*/
+
 .prf_special header#header {
     background: #ffffffff !important;
 }
+
 /* キュレーションページ: ヘッダー タイトル　*/
+
 .prf_special header#header .sp-none {
     margin-left: 15px;
     color: #002060;
     font-weight: bold;
 }
+
 /* キュレーションページ: ログインボタン非表示　*/
+
 .prf_special header#header div#btnHdrLogin {
     display: none;
 }
+
 /* キュレーションページ: キュレーターメイン画像　*/
+
 .prf_special div#main-visual {
     background: #ffffffff !important;
 }
