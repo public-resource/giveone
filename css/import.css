@@ -21,6 +21,11 @@ div#kifu-koujyo {
     text-align: center;
 }
 
+/* トップページタイトルアイコン非表示 */
+#recommend h2::before {
+    display: none !important;
+}
+
 /* ログイン後メニューボタン */
 
 .afterLoginBtn {
