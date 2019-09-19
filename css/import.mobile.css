@@ -143,9 +143,16 @@
     .prf_special header#header div#btnHdrLogin {
         display: none;
     }
+    /* キュレーションページ: メニューボタン非表示　*/
+    .prf_special img.pc-none.menu-btn.open {
+        display: none;
+    }
     /* キュレーションページ: キュレーターメイン画像　*/
     .prf_special div#main-visual {
         background: #ffffffff !important;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 75px;
     }
     /* キュレーションページ: キュレーターメイン画像高さ調整　*/
     .prf_special main#main p {
