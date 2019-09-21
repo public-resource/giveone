@@ -382,6 +382,34 @@ body.special #headShare {
     margin-top: 0px !important;
 }
 
+/* 団体情報ページ:[活動者数] */
+
+#npo .npo-activity .widgets-01 {
+    background-color: #777777 !important;
+    border: medium solid #f5f5f5 !important;
+}
+
+/* 団体情報ページ:[応援者数] */
+
+#npo .npo-activity .widgets-02 {
+    background-color: #777777 !important;
+    border: medium solid #f5f5f5 !important;
+}
+
+/* 団体情報ページ:[団体への寄付数] */
+
+#npo .npo-activity .widgets-03 {
+    background-color: #777777 !important;
+    border: medium solid #f5f5f5 !important;
+}
+
+/* 団体情報ページ:[寄付総額] */
+
+#npo .npo-activity .widgets-04 {
+    background-color: #777777 !important;
+    border: medium solid #f5f5f5 !important;
+}
+
 /* 会員ログイン 下部[団体ログイン] ボタン位置調整*/
 
 .prf_owner-login-btn .btn-style1 {
@@ -580,4 +608,16 @@ span.prf_search-title:before {
 
 .prf_special div#main-visual {
     background: #ffffffff !important;
+}
+
+/* 継続寄付クレジットカード更新画面の色変更: 継続寄付カードなしメッセージ */
+
+.card-number .help-block {
+    color: #ff0707 !important;
+}
+
+/* 継続寄付クレジットカード更新画面の色変更: 継続寄付寄付カード背景 */
+
+.current-card-info {
+    background: #eee !important;
 }
