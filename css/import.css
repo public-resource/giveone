@@ -607,7 +607,7 @@ span.prf_search-title:before {
 /* キュレーションページ: キュレーターメイン画像　*/
 
 .prf_special div#main-visual {
-    background: #ffffffff !important;
+    background: #ffffff !important;
 }
 
 /* 継続寄付クレジットカード更新画面の色変更: 継続寄付カードなしメッセージ */
@@ -621,3 +621,10 @@ span.prf_search-title:before {
 .current-card-info {
     background: #eee !important;
 }
+
+/* 団体画面と管理者画面 サイドバー団体名表示文字色 */
+#side-menu .site-title .font-bold {
+    color: #ffffff;
+}
+
+/* */
