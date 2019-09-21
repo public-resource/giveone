@@ -627,4 +627,9 @@ span.prf_search-title:before {
     color: #ffffff;
 }
 
-/* */
+/* 寄付申し込みフォーム 金額設定ボタンの色 */
+#btn_amount .btn-success {
+    color: #002060 !important;
+    background-color: #ddd !important;
+    border-color: #002060 !important;
+}
