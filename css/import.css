@@ -643,7 +643,7 @@ span.prf_search-title:before {
 
 /* 会員管理 会員情報変更画面 郵便番号ボタン */
 button#btn-zip2addr {
-    margin-top: 7px !important;
+    margin-top: 5px !important;
     padding-left: 7px !important;
     padding-right: 7px !important;
 }
